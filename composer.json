@@ -1,0 +1,20 @@
+{
+    "name": "fizzka/geo-ip",
+    "description": "Extensible service for getting basic geo info by IP",
+    "require": {
+        "tightenco/collect": "^7.9",
+        "guzzlehttp/guzzle": "^6.5",
+        "league/pipeline": "^1.0",
+        "monolog/monolog": "^2.0",
+        "symfony/cache": "^5.0",
+        "predis/predis": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fizz\\GeoIp\\": "src"
+        }
+    },
+    "require-dev": {
+        "phalcon/ide-stubs": "^4.0"
+    }
+}
